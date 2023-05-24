@@ -1,0 +1,31 @@
+{
+  "name": "news-app",
+  "version": "1.0.0",
+  "description": "This code activity is a way for you to show us your development skills -\r we’re just as interested in how you think through a problem and approach\r designing a solution as we are in the code that you write.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PortableStudios/news-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PortableStudios/news-app/issues"
+  },
+  "homepage": "https://github.com/PortableStudios/news-app#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/morgan": "^1.9.4",
+    "nodemon": "^2.0.22"
+  }
+}

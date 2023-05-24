@@ -1,0 +1,26 @@
+# Dependency directories
+node_modules/
+
+# Output directories
+dist/
+
+# IDE and editor files
+.vscode/
+
+# Environment-specific files
+.env
+
+# Log files
+*.log
+
+# Build artifacts and generated files
+*.js
+*.js.map
+*.d.ts
+
+# Ignore package-lock.json for npm projects
+package-lock.json
+
+# Ignore personal or sensitive files
+config.json
+secrets.json

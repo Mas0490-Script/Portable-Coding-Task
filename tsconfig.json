@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "commonjs", // Module system
+        "lib": [
+            "es2022"
+        ], // Available libraries
+        "strict": true, // Enable strict type checking
+        "esModuleInterop": true, // Enable compatibility with CommonJS modules
+        "skipLibCheck": true, // Skip type checking of declaration files from dependencies
+        "outDir": "dist", // Output directory for transpiled JavaScript files
+        "rootDir": "./", // Root directory for TypeScript source files
+        "resolveJsonModule": true, // Enable importing JSON files
+        "declaration": true, // Generate declaration files (*.d.ts)
+        "sourceMap": true // Generate source maps
+    },
+    "include": [
+        "src/**/*.ts", // Include TypeScript source files in the src folder
+        "*.ts" // Include TypeScript source files in the root folder
+    ],
+    "exclude": [
+        "node_modules" // Exclude node_modules directory
+    ]
+}

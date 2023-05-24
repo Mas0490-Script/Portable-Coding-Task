@@ -1,0 +1,1 @@
+in here I would create any required modules or classes etc responsible for interacting with external services like the database that hosts the news articles so that this is clean and centralized 

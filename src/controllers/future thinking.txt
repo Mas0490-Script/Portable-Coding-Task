@@ -1,0 +1,1 @@
+in here I would create controllers for things like NewsController (e.g., for getting articles) or UserController (for registration, authentication etc) to hand all the different request types e.g., GET, PUT, DELETE
